@@ -48,7 +48,7 @@ iOS Unity3D 游戏修改实战
 arm64里面 int 类型的函数返回值存在 w0 寄存器，这里直接修改w0寄存器的值然后让函数返回。 
 选择菜单 `Modify - Assembel Instruction`, 先输入 `mov w0, #0xffff`, 然后点击弹窗的 `Assemble and Go Next`, 再输入 `ret`
  
-[截图](https://github.com/neil-wu/iOSUnityGameMod_frog/Hopper.jpg)
+![截图](https://raw.githubusercontent.com/neil-wu/iOSUnityGameMod_frog/master/Hopper.jpg)
 
 
 然后先保存文件，再选择菜单 `File - Produce New Executable`, 生成新的可执行文件。
